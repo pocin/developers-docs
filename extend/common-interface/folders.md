@@ -114,7 +114,6 @@ or in the output mapping configuration.
 The following is an example of specifying columns in the manifest file `/data/out/tables/myfile.csv.manifest`:
 
     {
-        "source": "myfile.csv",
         "destination": "in.c-mybucket.table",
         "columns": ["col1", "col2", "col3"]
     }
